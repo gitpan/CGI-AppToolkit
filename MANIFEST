@@ -1,6 +1,8 @@
+.icon.bin
 MANIFEST
 MANIFEST.skip
 Makefile.PL
+README
 Template/Makefile.PL
 Template/Template/DecisionNode.cpp
 Template/Template/DecisionNode.h
@@ -22,11 +24,13 @@ lib/CGI/AppToolkit/Data/Automorph.pm
 lib/CGI/AppToolkit/Data/Object.pm
 lib/CGI/AppToolkit/Data/SQLObject.pm
 lib/CGI/AppToolkit/Data/TestSQLObject.pm
-lib/CGI/AppToolkit/ObjectFactory.pm
 lib/CGI/AppToolkit/Template.pm
 lib/CGI/AppToolkit/Template/Filter.pm
+lib/CGI/AppToolkit/Template/Filter/Abs.pm
 lib/CGI/AppToolkit/Template/Filter/BR.pm
 lib/CGI/AppToolkit/Template/Filter/HTML.pm
+lib/CGI/AppToolkit/Template/Filter/Money.pm
+lib/CGI/AppToolkit/Template/Filter/URL.pm
 lib/CGI/AppToolkit/Template/TemplateC.pm
 t/data-test1.t
 t/template-test1.t

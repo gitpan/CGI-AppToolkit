@@ -19,8 +19,8 @@ my $dbpassword = '';
 my $testdb = '';
 
 # comment the following lines to make the test happen
-#foreach (1..8) { print "ok skipped until username and password are supplied\n"; }
-#exit;
+foreach (1..8) { print "ok skipped until username and password are supplied\n"; }
+exit;
 
 sub compare {
 	my $num = shift;

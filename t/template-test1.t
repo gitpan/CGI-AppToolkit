@@ -6,7 +6,7 @@ use CGI::AppToolkit;
 use strict;
 
 BEGIN {
-	print "1..71\n";
+	print "1..72\n";
 }
 
 my $V = 1;
